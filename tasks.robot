@@ -34,7 +34,6 @@ search for appointment
             load page
             Log To Console    page loaded
             ${termin}=  Run Keyword And Return Status    Wait For Element   //*[@id="xi-fs-2"]/legend    5s
-            ${termin}=    Set Variable    ${True}
             Log To Console    termin is available: ${termin}
             IF    ${termin}
                 Run    paplay /usr/share/sounds/freedesktop/stereo/complete.oga

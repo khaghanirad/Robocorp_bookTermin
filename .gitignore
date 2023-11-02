@@ -1,2 +1,4 @@
 *.html
-output.xmlddd*.html
+output.xml
+*.html
+.vscode/

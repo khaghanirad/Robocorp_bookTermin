@@ -33,7 +33,8 @@ search for appointment
         WHILE    True
             load page
             Log To Console    page loaded
-            ${termin}=  Run Keyword And Return Status    Wait For Element   //*[@id="xi-fs-2"]/legend    5s
+            Set Selenium Implicit Wait    5
+            ${termin}=    Is Element Visible   //*[@id="xi-fs-4"]
             Log To Console    termin is available: ${termin}
             IF    ${termin}
                 Run    paplay /usr/share/sounds/freedesktop/stereo/complete.oga
@@ -92,16 +93,16 @@ select other
     Wait Until Element Is Visible    id:xi-sel-427    timeout=60
     Select From List By Label    id:xi-sel-427    nein
 select request
-    Wait Until Element Is Visible    //*[@id="xi-div-30"]/div[1]    timeout=60
-    Wait Until Element Is Enabled    //*[@id="xi-div-30"]/div[1]    timeout=60
+    Wait Until Element Is Visible    //*[@id="xi-div-30"]/div[2]    timeout=60
+    Wait Until Element Is Enabled    //*[@id="xi-div-30"]/div[2]    timeout=60
     Sleep    3
-    Click Element    //*[@id="xi-div-30"]/div[1]
+    Click Element    //*[@id="xi-div-30"]/div[2]
 select type
-    Wait Until Element Is Visible    //*[@id="inner-439-0-1"]/div/div[1]    timeout=120
-    Click Element    //*[@id="inner-439-0-1"]/div/div[1]
+    Wait Until Element Is Visible    //*[@id="inner-439-0-2"]/div/div[1]    timeout=120
+    Click Element    //*[@id="inner-439-0-2"]/div/div[1]
 select radiobtn
-    Wait Until Element Is Visible    //*[@id="SERVICEWAHL_DE439-0-1-3-305244"]    timeout=60
-    Click Element   //*[@data-tag0="Aufenthaltserlaubnis zum Studium (§ 16b)"]
+    Wait Until Element Is Visible    //*[@id="SERVICEWAHL_DE439-0-2-3-305244"]    timeout=60
+    Click Element   //*[@id="SERVICEWAHL_DE439-0-2-3-305244"]
 click on next
     Wait Until Element Is Visible    id=applicationForm:managedForm:proceed    timeout=60
     Wait Until Element Is Enabled    id=applicationForm:managedForm:proceed    timeout=60

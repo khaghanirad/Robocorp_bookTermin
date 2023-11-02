@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.10.12 on linux)" generated="20231025 01:23:03.356" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="/home/milad/.vscode/extensions/robocorp.robotframework-lsp-1.11.0/src/robotframework_ls/vendored/robotframework_interactive/robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Wait For Process">
+<arg>${chromePath}</arg>
+<msg timestamp="20231025 01:23:05.392" level="FAIL">No keyword with name 'Wait For Process' found.</msg>
+<status status="FAIL" starttime="20231025 01:23:05.386" endtime="20231025 01:23:05.392"/>
+</kw>
+<kw name="Click">
+<arg>//*[@id="mainForm"]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/div[2]/a</arg>
+<status status="NOT RUN" starttime="20231025 01:23:05.394" endtime="20231025 01:23:05.394"/>
+</kw>
+<kw name="Click">
+<arg>//*[@id="mainForm"]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/div[2]/a</arg>
+<status status="NOT RUN" starttime="20231025 01:23:05.416" endtime="20231025 01:23:05.416"/>
+</kw>
+<kw name="Close Browser">
+<status status="NOT RUN" starttime="20231025 01:23:05.418" endtime="20231025 01:23:05.418"/>
+</kw>
+<status status="PASS" starttime="20231025 01:23:03.442" endtime="20231025 01:23:05.970"/>
+</kw>
+<status status="PASS" starttime="20231025 01:23:03.442" endtime="20231025 01:23:05.970"/>
+</test>
+<status status="PASS" starttime="20231025 01:23:03.357" endtime="20231025 01:23:05.971"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

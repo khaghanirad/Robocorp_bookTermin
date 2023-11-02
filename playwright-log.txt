@@ -1,0 +1,17 @@
+{"level":30,"time":"2023-10-25T14:16:18.237Z","pid":296899,"hostname":"K2","msg":"Listening on 53677"}
+{"level":30,"time":"2023-10-25T14:16:18.423Z","pid":296899,"hostname":"K2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-25T14:16:18.431Z","pid":296899,"hostname":"K2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-25T14:16:18.535Z","pid":296899,"hostname":"K2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-25T14:16:18.542Z","pid":296899,"hostname":"K2","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/milad/.robocorp/holotree/929e3d6_b1f3c24_1c0bc041/lib/python3.10/site-packages/Browser/wrapper/index.js:9470:15)
+    at PlaywrightServer.getActiveBrowser (/home/milad/.robocorp/holotree/929e3d6_b1f3c24_1c0bc041/lib/python3.10/site-packages/Browser/wrapper/index.js:9991:59)
+    at PlaywrightServer.setTimeout (/home/milad/.robocorp/holotree/929e3d6_b1f3c24_1c0bc041/lib/python3.10/site-packages/Browser/wrapper/index.js:10237:57)
+    at handleUnary (/home/milad/.robocorp/holotree/929e3d6_b1f3c24_1c0bc041/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:833:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2023-10-25T14:16:31.991Z","pid":296899,"hostname":"K2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-25T14:16:31.998Z","pid":296899,"hostname":"K2","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-25T14:16:32.079Z","pid":296899,"hostname":"K2","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-25T14:16:32.089Z","pid":296899,"hostname":"K2","msg":"End of node method getBrowserCatalog"}
